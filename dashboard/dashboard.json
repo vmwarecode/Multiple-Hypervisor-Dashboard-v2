@@ -1,0 +1,623 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1585143710968,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "0bcc3b56-db84-4681-b98b-f20dc79064fb",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Multi-Hypervisor Dashboard",
+      "namePath": "Custom Dashboards",
+      "rank": 730,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "37275519-dcc9-47c7-b117-6dbbf4e623ef",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "30d84181-4096-4380-91e1-ea2ed543545d",
+            "widgetIdReceiver": "22ea1618-aa0d-499c-beca-034f143eca29"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "ebc1ad66-b949-4d67-b8e6-38d096c2de7b",
+            "widgetIdReceiver": "64faf144-0428-4422-a08d-e29703f8185b"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREDatacenter",
+                     "originalText": "Datacenter",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Datacenter",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:1_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "VMware Clusters",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 1
+            },
+            "height": 210,
+            "id": "30d84181-4096-4380-91e1-ea2ed543545d",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_0bcc3b56-db84-4681-b98b-f20dc79064fb_30d84181-4096-4380-91e1-ea2ed543545d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_HeatMap_widget_0bcc3b56-db84-4681-b98b-f20dc79064fb_30d84181-4096-4380-91e1-ea2ed543545d",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "VMware Clusters",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREDatacenter",
+                     "originalText": "Datacenter",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Datacenter",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:2_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Microsoft Hyper-V Clusters",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 1
+            },
+            "height": 210,
+            "id": "ebc1ad66-b949-4d67-b8e6-38d096c2de7b",
+            "states": [{
+               "key": "perm_HeatMap_widget_0bcc3b56-db84-4681-b98b-f20dc79064fb_ebc1ad66-b949-4d67-b8e6-38d096c2de7b",
+               "value": "o%3A"
+            }],
+            "title": "Microsoft Hyper-V Clusters",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREClusterComputeResource",
+                     "originalText": "Cluster Compute Resource",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Cluster Compute Resource",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:1_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:3_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "VMware ESXi Hosts",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 1,
+               "y": 10
+            },
+            "height": 324,
+            "id": "e342c9f9-9440-4e35-81ac-4fe349eaecab",
+            "states": [{
+               "key": "perm_HeatMap_widget_0bcc3b56-db84-4681-b98b-f20dc79064fb_e342c9f9-9440-4e35-81ac-4fe349eaecab",
+               "value": "o%3A"
+            }],
+            "title": "VMware ESXi Hosts",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002024MICROSOFT_HYPERV_ADAPTERmicrosoft_hyper_v_microsoft_scvmmdb_cluster",
+                     "originalText": "Microsoft Hyper-V Cluster",
+                     "parentId": "MICROSOFT_HYPERV_ADAPTER",
+                     "parentText": "Microsoft Hyper-V",
+                     "text": "Microsoft Hyper-V Cluster",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:2_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:4_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Microsoft Hyper-V Hosts",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 10
+            },
+            "height": 324,
+            "id": "f780d42f-0324-43fc-a007-556ae15bc8ec",
+            "states": [{
+               "key": "perm_HeatMap_widget_0bcc3b56-db84-4681-b98b-f20dc79064fb_f780d42f-0324-43fc-a007-556ae15bc8ec",
+               "value": "o%3A"
+            }],
+            "title": "Microsoft Hyper-V Hosts",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREHostSystem",
+                     "originalText": "Host System",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Host System",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:3_::_"
+                  },
+                  "id": "extModel21343-1",
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:5_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "VMware VMs",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 6,
+               "x": 1,
+               "y": 16
+            },
+            "height": 438,
+            "id": "f90f96e9-be07-4c69-8096-f9561e7b2c23",
+            "states": [{
+               "key": "perm_HeatMap_widget_0bcc3b56-db84-4681-b98b-f20dc79064fb_f90f96e9-be07-4c69-8096-f9561e7b2c23",
+               "value": "o%3A"
+            }],
+            "title": "VMware VMs",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002024MICROSOFT_HYPERV_ADAPTERmicrosoft_hyper_v_microsoft_scvmmdb_host",
+                     "originalText": "Microsoft Hyper-V Host",
+                     "parentId": "MICROSOFT_HYPERV_ADAPTER",
+                     "parentText": "Microsoft Hyper-V",
+                     "text": "Microsoft Hyper-V Host",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:4_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "Health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:6_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Microsoft Hyper-V VMs",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 6,
+               "x": 7,
+               "y": 16
+            },
+            "height": 438,
+            "id": "944e1310-bd0e-444f-bdb7-e4ae97ab2130",
+            "states": [{
+               "key": "perm_HeatMap_widget_0bcc3b56-db84-4681-b98b-f20dc79064fb_944e1310-bd0e-444f-bdb7-e4ae97ab2130",
+               "value": "o%3A"
+            }],
+            "title": "Microsoft Hyper-V VMs",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 2,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alerts (for selected VMware Cluster)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 1,
+               "y": 5
+            },
+            "height": 267,
+            "id": "22ea1618-aa0d-499c-beca-034f143eca29",
+            "title": "Alerts (for selected VMware Cluster)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 2,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alerts (for selected Hyper-V Cluster)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 7,
+               "y": 5
+            },
+            "height": 267,
+            "id": "64faf144-0428-4422-a08d-e29703f8185b",
+            "states": [{
+               "key": "perm_toolbarVisible_widget_0bcc3b56-db84-4681-b98b-f20dc79064fb_64faf144-0428-4422-a08d-e29703f8185b",
+               "value": "b%3A0"
+            }],
+            "title": "Alerts (for selected Hyper-V Cluster)",
+            "type": "AlertList"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "Datacenter"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "HostSystem"
+      },
+      {
+         "adapterKindKey": "MICROSOFT_HYPERV_ADAPTER",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "microsoft_hyper_v_microsoft_scvmmdb_cluster"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:5_::_",
+         "resourceKindKey": "VirtualMachine"
+      },
+      {
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "ClusterComputeResource"
+      },
+      {
+         "adapterKindKey": "MICROSOFT_HYPERV_ADAPTER",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "microsoft_hyper_v_microsoft_scvmmdb_host"
+      },
+      {
+         "adapterKindKey": "MICROSOFT_HYPERV_ADAPTER",
+         "internalId": "resourceKind:id:6_::_",
+         "resourceKindKey": "microsoft_hyper_v_microsoft_scvmmdb_virtual_machine"
+      }
+   ]},
+   "uuid": "029b3756-6629-4732-80e8-a6ea60cbfcb2"
+}
